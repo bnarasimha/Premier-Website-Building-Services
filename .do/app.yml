@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Website Building Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            background: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        h2 {
+            color: #35424a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Website Building Services</h1>
+        <p>Your solution for stunning and effective websites</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Us</h2>
+            <p>We specialize in custom website development tailored to your business needs. Our services include designing, enhancing, and maintaining websites for clients across various industries.</p>
+        </section>
+        <section>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Responsive Web Design</li>
+                <li>eCommerce Solutions</li>
+                <li>Content Management Systems</li>
+                <li>SEO Optimization</li>
+                <li>Website Maintenance</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Portfolio</h2>
+            <p>Check out some of our recent projects:</p>
+            <ul>
+                <li>Project A - www.projectA.com</li>
+                <li>Project B - www.projectB.com</li>
+                <li>Project C - www.projectC.com</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you're interested in our services or have any questions, please reach out!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Website Building Services</p>
+    </footer>
+</body>
+</html>
