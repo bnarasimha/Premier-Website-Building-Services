@@ -1,0 +1,6 @@
+name: samplewebsite
+services:
+- name: samplewebsite
+  github:
+    branch: main
+    repo: bnarasimha/Premier-Website-Building-Services
